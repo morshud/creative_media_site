@@ -15,7 +15,6 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
-    'key' => env('APP_KEY', 'SomeRandomStringSomeRandomString'),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +40,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', true),
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
