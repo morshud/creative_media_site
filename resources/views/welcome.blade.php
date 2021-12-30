@@ -581,7 +581,7 @@
                                 <div class="post-box brd-rd15 w-100">
                                     <div class="post-img overflow-hidden position-relative w-100">
                                         <a href="{{ route('blog-details', $item->slug) }}" title=""><img class="img-fluid w-100" src="{{Voyager::image($item->image)}}" alt="{{$item->title}}" height="576" width="1024"></a>
-                                        <span class="post-date brd-rd15 text-center position-absolute text-uppercase"><i>{{$item->created_at->format('d')}}</i>{{$item->created_at->format('M')}}</span>
+                                        <span class="post-date brd-rd15 text-center position-absolute text-uppercase"><i></span>
                                     </div>
                                     <div class="post-info w-100">
                                         <span class="post-cate d-block text-uppercase"><a href="javascript:void(0);" title="">{{$item->category['name']}}</a></span>
