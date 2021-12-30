@@ -584,7 +584,7 @@
                                         <span class="post-date brd-rd15 text-center position-absolute text-uppercase"><i>{{$item->created_at->format('d')}}</i>{{$item->created_at->format('M')}}</span>
                                     </div>
                                     <div class="post-info w-100">
-                                        <span class="post-cate d-block text-uppercase"><a href="javascript:void(0);" title="">{{$item->category['name']}}</a></span>
+                                        <span class="post-cate d-block text-uppercase"><a href="javascript:void(0);" title="">{{$item->category}}</a></span>
                                         <h3 class="mb-0"><a href="{{ route('blog-details', $item->slug) }}" title="">Let’s talk test</a></h3>
                                         <span class="post-athr d-block position-relative">By <a href="javascript:void(0);" title="">{{$item->author['name']}}</a></span>
                                         <p class="mb-0">{{$item->excerpt}}</p>
